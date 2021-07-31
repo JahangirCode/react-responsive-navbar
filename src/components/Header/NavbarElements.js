@@ -114,4 +114,10 @@ export const NavLinks = styled(NavLink)`
         color: #ffdd40;
         border: 1px solid #ffdd40;
     }
+    
+     @media screen and (max-width: 992px) {
+        &.active {
+            color: #ffdd40;
+            border: none;
+        }
 `;
