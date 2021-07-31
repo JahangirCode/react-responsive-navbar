@@ -2,20 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 function Service() {
-    return (
-        <Container>
-            <h1>This is service demo page</h1>
-        </Container>
-    );
+    return <Container>This is service demo page</Container>;
 }
 
 const Container = styled.div`
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f1f1f1;
+    color: #316685;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20%;
 `;
 
 export default Service;

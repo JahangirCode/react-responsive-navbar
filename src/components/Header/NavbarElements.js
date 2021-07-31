@@ -64,9 +64,13 @@ export const NavMenu = styled.ul`
     position: relative;
 
     @media screen and (max-width: 992px) {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 80px);
+        text-align: center;
+        align-items: center;
         width: 100%;
+        height: 100vh;
         padding: 4rem 0;
         border-top: 1pxsolid #fff;
         position: absolute;
