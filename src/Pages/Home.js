@@ -5,6 +5,7 @@ function Home() {
     return (
         <Container>
             <h1>This is home demo page</h1>
+            <p>Create by Jahangir Alam</p>
         </Container>
     );
 }
